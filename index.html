@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reloj</title>
+    <!-- agregar etieuetas metas -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center mt-5">
+        <div class="titulo blue  fondoDark d-flex flex-column text-light w-75 neon">
+            <div class="d-flex justify-content-around text-center m-5 flex-wrap">
+                <p id="diaSemana"></p>
+                <p id="dia"></p>
+                <p>de</p>
+                <p id="mes"></p>
+                <p>del</p>
+                <p id="anio"></p>
+            </div>
+            <div class=" fecha blue  d-flex justify-content-around m-5 reloj flex-wrap">
+                <p class="horas" id="horas"></p>
+                <p>:</p>
+                <p class="minutos" id="minutos"></p>
+                <p>:</p>
+                <p class="segundos" id="segundos"></p>
+                <p class="ampm" id="ampm"></p>
+            </div>
+            <div class="neon blue mb-5" id="simbolo">
+                <p>&#60; &#62;</p>
+            </div>
+        </div>
+    </div>
+    <footer class="container text-center colorGrey">
+        <p>Made with &#x2661 </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="js/reloj.js"></script>
+
+</body>
+
+</html>
