@@ -1,26 +1,45 @@
 
 body {
-    background: #fff;
+    background: #000000;
     
 }
 
-.fecha {
+.fechaAzul {
     font-family: 'Londrina Outline', cursive;
     text-align: center;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 80px;
     color: rgb(0, 132, 255);
-    letter-spacing: 0.15em;
+    letter-spacing: 10px;
 }
 
 .titulo {
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    font-size: 2em;
-    color: rgb(0, 132, 255);
-    letter-spacing: 0.1em;
+    font-size: 40px;
+    letter-spacing: 18px;
 }
+
+.fechaVerde {
+    font-family: 'Londrina Outline', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: chartreuse;
+    letter-spacing: 10px;
+}
+
+
+.fechaRojo {
+    font-family: 'Londrina Outline', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: red;
+    letter-spacing: 10px;
+}
+
 
 .pink {
     text-shadow: 
@@ -57,28 +76,60 @@ body {
         0 0 150px #7bffce;
 }
 
-.colorGrey{
-    color: grey
+.white {
+    text-shadow: 
+        0 0 5px #e6e6e6,
+        0 0 10px #e6e6e6,
+        0 0 20px #e6e6e6,
+        0 0 40px #e6e6e6,
+        0 0 80px #e6e6e6,
+        0 0 90px #e6e6e6,
+        0 0 100px #e6e6e6,
+        0 0 150px #e6e6e6;
+}
+
+.colorWhite{
+    color: whitesmoke;
+}
+
+.fuente{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-@media (max-width: 991.98px) { 
-    .fecha{
-        font-size: 2em;
+@media all and (min-width: 768px) and (max-width: 991px){
+    .fechaAzul{
+        font-size: 55px;
+    }
+
+    .fechaVerde{
+        font-size: 55px;
+    }
+
+    .fechaRojo{
+        font-size: 55px;
     }
 
     .titulo{
-        font-size: 2em;
+        font-size: 30px;
     }
 }
 
-@media (max-width: 767.98px) { 
-    .fecha{
-        font-size: 1em;
+@media all and (max-width: 767px){
+    .fechaAzul{
+        font-size: 21px;
+    }
+
+    .fechaVerde{
+        font-size: 21px;
+    }
+
+    .fechaRojo{
+        font-size: 21px;
     }
 
     .titulo{
-        font-size: 1.2em; 
+        font-size: 15px; 
         
     }
 }

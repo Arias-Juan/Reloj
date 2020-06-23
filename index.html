@@ -16,7 +16,7 @@
 
 <body>
     <div class="container d-flex justify-content-center mt-5">
-        <div class="titulo blue  fondoDark d-flex flex-column text-light w-75 neon">
+        <div class="titulo white d-flex flex-column text-light w-75" id="colorA">
             <div class="d-flex justify-content-around text-center m-5 flex-wrap">
                 <p id="diaSemana"></p>
                 <p id="dia"></p>
@@ -25,7 +25,7 @@
                 <p>del</p>
                 <p id="anio"></p>
             </div>
-            <div class=" fecha blue  d-flex justify-content-around m-5 reloj flex-wrap">
+            <div class="fechaAzul blue  d-flex justify-content-around m-5 reloj flex-wrap" id="colorB">
                 <p class="horas" id="horas"></p>
                 <p>:</p>
                 <p class="minutos" id="minutos"></p>
@@ -33,13 +33,19 @@
                 <p class="segundos" id="segundos"></p>
                 <p class="ampm" id="ampm"></p>
             </div>
-            <div class="neon blue mb-5" id="simbolo">
+            <div class="blue mb-5 text-center" id="colorC">
                 <p>&#60; &#62;</p>
+                <button class="btn btn-primary" onclick="cambioColorAzul()">.</button>
+                <button class="btn btn-danger" onclick="cambioColorRojo()">.</button>
+                <button class="btn btn-success" onclick="cambioColorVerde()">.</button>
             </div>
         </div>
     </div>
-    <footer class="container text-center colorGrey">
-        <p>Made with &#x2661 </p>
+    <div class="text-center">
+
+    </div>
+    <footer class="container text-center colorWhite fuente">
+        <p>Juan Arias</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -52,6 +58,7 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <script src="js/reloj.js"></script>
+    <script src="js/botones.js"></script>
 
 </body>
 
